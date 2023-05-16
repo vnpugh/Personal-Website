@@ -1,0 +1,6 @@
+Resources
+
+Horizontal rule/line beneath each <h1> heading in CSS
+https://stackoverflow.com/questions/16073323/horizontal-rule-line-beneath-each-h1-heading-in-css
+
+
