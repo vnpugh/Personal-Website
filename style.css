@@ -1,16 +1,35 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 
+/* ==== Global ====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100vw;
+  height: 95vh;
+  background-image: url(images/topimage.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 
 
 /*navbar*/
 .navbar {
     position: fixed;
-    background-color: gray;
-    height: 6rem;
+    background-color: rgb(154, 148, 148);
+    height: 5rem;
     top: 0;
     left: 0;
     right: 0;
+
   
   }
 
@@ -29,14 +48,14 @@
  
     margin: 0.8rem;
     font-family: 'Martel', serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
    
   }
 
 
 
   h1{
-    color: rgb(72, 67, 67);
+    color: rgb(124, 124, 124);
     font-family: 'Martel', serif;
     padding-top: 10rem;
     /*padding-bottom: 1rem;*/
@@ -44,7 +63,7 @@
   h1:after {
     content:' ';
     display:block;
-    border:2px solid #d0d0d0;
+    border:2px solid #ffd4e9;
     border-radius:4px;
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
@@ -56,7 +75,8 @@
 /*about section*/
 
 #h1-about{
-  margin: 7.5rem;
+  margin: 7rem;
+  margin-top: 1rem;
 
 }
 
