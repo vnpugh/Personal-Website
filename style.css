@@ -1,10 +1,13 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+
 
 /*navbar*/
 .navbar {
     position: fixed;
     background-color: gray;
-    height: 100px;
+    height: 6rem;
     top: 0;
     left: 0;
     right: 0;
@@ -19,35 +22,45 @@
    
   }
 
+
   .navbar a {
     color: #ffffff;
     text-decoration: none;
-    padding: 4px 30px;
+ 
+    margin: 0.8rem;
+    font-family: 'Martel', serif;
+    font-size: 1.3rem;
    
   }
 
 
-  #h1-about{  
-    margin-top: 20rem;
-  }
 
   h1{
-
+    color: rgb(72, 67, 67);
+    font-family: 'Martel', serif;
     padding-top: 10rem;
     /*padding-bottom: 1rem;*/
   }
+  h1:after {
+    content:' ';
+    display:block;
+    border:2px solid #d0d0d0;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
 
 /*about section*/
 
-.about {
-    margin: 0 20rem 2rem 20rem;
-    padding: 8rem 8rem 0 8rem;
-   
-  }
+#h1-about{
+  margin: 7.5rem;
 
-  .container{
+}
+
  
-  }
 
 /*portfolio section*/
   .portfolio {
@@ -61,42 +74,20 @@
 
 
 
-  /* services section css */
-.skillsText.card {
-    height: 240px;
-    font-size: small;
-    cursor: pointer;
-  }
-.skillsIcon {
-    font-size: 20px;
-    text-align: center;
-    width: 100%;
-}
-
-.card-title {
-    text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.skillsText:hover {
-    border: 1px solid #008000;
-}
-
-
-/* spacing on all sections */
-
-#portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-#contact {
-    padding-bottom: 4rem;
-}
 
 
 
-/* social media icons styling */
+
+
+
+
+
+
+
+
+
+
+/* footer social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
