@@ -1,0 +1,106 @@
+
+
+/*navbar*/
+.navbar {
+    position: fixed;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+  }
+
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 20px;
+   
+  }
+
+
+
+
+/*about section*/
+h1{
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+.about {
+    margin: 0 20rem 2rem 20rem;
+    padding: 8rem 8rem 0 8rem;
+   
+  }
+
+  .container{
+ 
+  }
+
+/*portfolio section*/
+  .portfolio {
+    margin: 0 6rem 5rem 6rem;
+    padding: 4rem 1rem 0 1rem;
+  }
+
+
+
+
+
+
+
+  /* services section css */
+.skillsText.card {
+    height: 240px;
+    font-size: small;
+    cursor: pointer;
+  }
+.skillsIcon {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.skillsText:hover {
+    border: 1px solid #008000;
+}
+
+
+/* spacing on all sections */
+
+#portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #000000;
+    text-align: center;
+}
